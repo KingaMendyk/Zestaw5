@@ -109,7 +109,7 @@ def delete_student(students, email):
 
 
 # 1.
-studentDict = read_file("students.txt")
+studentDict = read_file("students1.txt")
 print("Students:")
 show(studentDict)
 
@@ -128,7 +128,7 @@ show(studentDict)
 
 # 4.
 print("\nSending emails:")
-#mail_students(studentDict)
+mail_students(studentDict)
 show(studentDict)
 
 # 5.
